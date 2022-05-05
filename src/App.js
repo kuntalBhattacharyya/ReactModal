@@ -9,7 +9,7 @@ function App() {
   }
 
   useEffect(() =>{
-    console.log("Modal");
+    console.log("New Modal");
   })
 
   return (
