@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ChildCompoent from "./component/ChildCompoent";
 
 function App() {
@@ -7,6 +7,10 @@ function App() {
   const handleCallback = (data) =>{
     setName(data)
   }
+
+  useEffect(() =>{
+    console.log("Modal");
+  })
 
   return (
     <div>
