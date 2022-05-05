@@ -5,7 +5,6 @@ function App() {
   const [name, setName] = useState("");
 
   const handleCallback = (data) =>{
-    console.log(data)
     setName(data)
   }
 
